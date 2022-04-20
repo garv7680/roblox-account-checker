@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Roblox Online Checker",
+    "slug": "roblox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/roblox.png",
+    "splash": {
+      "image": "./assets/roblox.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/roblox.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "roblox.online.checker"
+    },
+    "web": {
+      "favicon": "./assets/roblox.png"
+    }
+  }
+}
